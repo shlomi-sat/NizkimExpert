@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>משרד עורכי הדין צדק לנזיקין</title>
-    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="icon" href="logo.webp" type="image/webp">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,6 +16,13 @@
             direction: rtl;
             text-align: right;
         }
+        .logo {
+            width: 32px;
+            height: auto;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
         header {
             background-image: url('baner.webp');
             background-size: cover;
@@ -23,7 +30,7 @@
             background-position: center;
             color: white;
             text-align: center;
-            padding: 100px 0;
+            padding: 100px 0; /* הקטנתי את הגובה למראה טוב יותר */
             border-radius: 0 0 15px 15px;
         }
         header h1 {
@@ -107,11 +114,15 @@
         .floating-review {
             right: 20px;
         }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
+    <img src="logo.webp" alt="צדק לנזיקין לוגו" class="logo">
     <header>
-        <img src="logo.png" alt="צדק לנזיקין לוגו" class="logo">
         <h1>משרד עורכי הדין צדק לנזיקין</h1>
         <p>שירות מקצועי ומהימן בנושאי נזיקין</p>
     </header>
@@ -126,18 +137,8 @@
     <div class="container">
         <section id="about" class="about">
             <h2>אודות המשרד</h2>
-            <p>משרד עורכי הדין צדק לנזיקין מתמחה בטיפול בתביעות נזיקין למעלה מ-10 שנים. צוות המשרד כולל עורכי דין 
-
-מנוסים ומיומנים המתמחים בכל סוגי הנזיקין, כולל תאונות דרכים, תאונות עבודה, רשלנות רפואית ונזקי רכוש. אנו מבינים את הצרכים של 
-
-לקוחותינו ופועלים במסירות ובמקצועיות להבטיח את התוצאה הטובה ביותר עבורם. במשרדנו תמצאו יחס אישי וחם, ליווי צמוד לאורך כל התהליך, 
-
-וזמינות גבוהה לכל שאלה ובקשה. אנו כאן בשבילכם, לדאוג לזכויותיכם ולהשיג עבורכם את הפיצוי המגיע לכם.</p>
-            <p>הלקוחות שלנו מקבלים יחס אישי וליווי צמוד לאורך כל התהליך, עם דגש על שקיפות ומקצועיות. המשרד שם לעצמו 
-
-למטרה להילחם למען זכויות הלקוח ולהשיג עבורו את הפיצויים המגיעים לו. אנו מזמינים אתכם ליצור קשר ולהתייעץ בכל שאלה או בעיה הקשורה 
-
-לתחום הנזיקין.</p>
+            <p>משרד עורכי הדין צדק לנזיקין מתמחה בטיפול בתביעות נזיקין למעלה מ-10 שנים. צוות המשרד כולל עורכי דין מנוסים ומיומנים המתמחים בכל סוגי הנזיקין, כולל תאונות דרכים, תאונות עבודה, רשלנות רפואית ונזקי רכוש. אנו מבינים את הצרכים של לקוחותינו ופועלים במסירות ובמקצועיות להבטיח את התוצאה הטובה ביותר עבורם. במשרדנו תמצאו יחס אישי וחם, ליווי צמוד לאורך כל התהליך, וזמינות גבוהה לכל שאלה ובקשה. אנו כאן בשבילכם, לדאוג לזכויותיכם ולהשיג עבורכם את הפיצוי המגיע לכם.</p>
+            <p>הלקוחות שלנו מקבלים יחס אישי וליווי צמוד לאורך כל התהליך, עם דגש על שקיפות ומקצועיות. המשרד שם לעצמו למטרה להילחם למען זכויות הלקוח ולהשיג עבורו את הפיצויים המגיעים לו. אנו מזמינים אתכם ליצור קשר ולהתייעץ בכל שאלה או בעיה הקשורה לתחום הנזיקין.</p>
         </section>
         <section id="services" class="services">
             <h2>שירותי המשרד</h2>
@@ -153,22 +154,14 @@
         <section id="guides" class="guides">
             <h2>מדריכים מקצועיים</h2>
             <ul>
-                <li><a href="guide1.html" target="_blank">מדריך לנפגעי תאונות 
-
-דרכים</a></li>
-                <li><a href="guide2.html" target="_blank">מדריך לנפגעי תאונות 
-
-עבודה</a></li>
-                <li><a href="guide3.html" target="_blank">מדריך לנפגעי רשלנות 
-
-רפואית</a></li>
+                <li><a href="guide1.html" target="_blank">מדריך לנפגעי תאונות דרכים</a></li>
+                <li><a href="guide2.html" target="_blank">מדריך לנפגעי תאונות עבודה</a></li>
+                <li><a href="guide3.html" target="_blank">מדריך לנפגעי רשלנות רפואית</a></li>
             </ul>
         </section>
         <section id="contactForm" class="contact">
             <h2>צור קשר</h2>
-            <form action="mailto:shlomi.p10@gmail.com" method="post" 
-
-enctype="text/plain">
+            <form action="mailto:shlomi.p10@gmail.com" method="post" enctype="text/plain">
                 <label for="name">שם (חובה):</label>
                 <input type="text" id="name" name="name" required>
                 <label for="phone">טלפון (חובה):</label>
@@ -181,12 +174,6 @@ enctype="text/plain">
             </form>
         </section>
     </div>
-
-    <style>
-        footer {
-            text-align: center;
-        }
-    </style>
     <footer>
         <p>&copy; 2024 משרד עורכי הדין צדק לנזיקין. כל הזכויות שמורות.</p>
     </footer>
@@ -198,39 +185,44 @@ enctype="text/plain">
     <a href="https://g.page/r/CWQ2boX-b6ZxEAI/review" class="floating-icon floating-review" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Star_icon_stylized.svg/768px-Star_icon_stylized.svg.png" alt="Google Review" style="width: 50px; height: 50px;">
     </a>
+<script>
+    // Get the modals
+    var aboutModal = document.getElementById("aboutModal");
+    var contactModal = document.getElementById("contactModal");
 
-    
-    <script>
-        // Get the modals
-        var aboutModal = document.getElementById("aboutModal");
-        var contactModal = document.getElementById("contactModal");
+    // Get the buttons that open the modals
+    var aboutBtn = document.getElementById("aboutBtn");
+    var contactBtn = document.getElementById("contactBtn");
 
-        // Get the buttons that open the modals
-        var aboutBtn = document.getElementById("aboutBtn");
-        var contactBtn = document.getElementById("contactBtn");
+    // Get the <span> elements that close the modals
+    var aboutClose = document.getElementById("aboutClose");
+    var contactClose = document.getElementById("contactClose");
 
-        // Get the <span> elements that close the modals
-        var aboutClose = document.getElementById("aboutClose");
-        var contactClose = document.getElementById("contactClose");
+    // When the user clicks the button, open the modal 
+    aboutBtn.onclick = function() {
+        aboutModal.style.display = "block";
+    }
+    contactBtn.onclick = function() {
+        contactModal.style.display = "block";
+    }
 
-        // When the user clicks the button, open the modal 
-        aboutBtn.onclick = function() {
-            aboutModal.style.display = "block";
+    // When the user clicks on <span> (x), close the modal
+    aboutClose.onclick = function() {
+        aboutModal.style.display = "none";
+    }
+    contactClose.onclick = function() {
+        contactModal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == aboutModal) {
+            aboutModal.style.display = "none";
         }
-        contactBtn.onclick = function() {
-            contactModal.style.display = "block";
+        if (event.target == contactModal) {
+            contactModal.style.display = "none";
         }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == aboutModal) {
-                aboutModal.style.display = "none";
-            }
-            if (event.target == contactModal) {
-                contactModal.style.display = "none";
-            }
-        }
-    </script>
+    }
+</script>
 </body>
 </html>
-
